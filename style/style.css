@@ -1,0 +1,54 @@
+body {
+    background:#4f4f4f;
+    /* Old browsers */
+}
+
+.Cover {
+    margin-top: 50px;
+}
+
+.Cover img {
+    width: 80%;
+    box-shadow: 15px 15px 3px rgba(20%, 20%, 40%, 0.5);
+    position: absolute;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.Cover img:hover {
+    transform: scale(1.1);
+}
+.card-header {
+    font-size: 50px;
+}
+.enterCityCampButtonStyle,.backCityCampButtonStyle {
+    margin-top: 15px;
+}
+.moddingCover {
+  height: 700px;
+  background-size: 85%;
+  background-image: url('../images/Modding.png');
+  background-repeat: no-repeat;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.pythonCover {
+  height: 700px;
+  background-size: 85%;
+  background-image: url('../images/Python.png');
+  background-repeat: no-repeat;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.pythonCover:hover {
+    transform: scale(1.1);
+}
+.moddingCover:hover {
+  transform: scale(1.1);
+}

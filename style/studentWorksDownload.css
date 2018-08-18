@@ -1,0 +1,11 @@
+.card-header, .card-title, .card-text, .text-muted, .tableStudentName {
+  color: #bebebe;
+}
+.pleaseSelectCamp {
+  color: #ff5151;
+}
+.table {
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+}
